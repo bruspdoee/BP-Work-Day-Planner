@@ -38,14 +38,14 @@ input {
 #navbar-title {
   padding: 0px;
   font-size: 30px;
-  color: linen!important; /* TODO can we do this without the !important */
+  color: linen; 
   text-align: center;
 }
 
 #navbar-subtitle {
   padding: 2px;
   font-size: 15px;
-  color: linen!important; /* TODO can we do this without the !important */
+  color: linen; 
   text-align: center;
 }
 
@@ -55,7 +55,7 @@ input {
 
 /* #planner */
 #plannerContainer {
-  background-color: #b6d7e2;  
+  background-color:rgb(115, 145, 155);  
   /* provides spacing between the top and bottom nav bars and the content */
   margin-top: 20px;
   margin-bottom: 80px;
@@ -66,7 +66,7 @@ input {
 
 .plannerRow {
   height: 50px;
-  margin-top: 2px;
+  margin-top: 15px;
   margin-bottom: 2px;
   font-size: 1em;
   line-height: 1.5;
@@ -89,6 +89,7 @@ input {
 .dailyPlan {
   color: black;  
   font-size: 12pt;
+  text-align: center;
   height:100%;
   width: 100%;
 }
@@ -123,7 +124,7 @@ input {
   .plannerRow {
     height: 100%;
     border-radius: 10;
-    margin: 10px;
+    margin: 5px;
   }
 
   .saveIcon { border-radius: 0 0 15px 15px; }
